@@ -1,0 +1,16 @@
+{
+  "name": "LiveSearch",
+  "version": "1.0.0",
+  "description": "Lex Live Search",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "npm install && node src/server.js"
+  },
+  "author": "hyedima",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
